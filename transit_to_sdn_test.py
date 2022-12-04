@@ -32,7 +32,7 @@ class TwoLayerTreeTopo(object):
     def __init__(self, controller_ip, controller_port):
         self.controller_ip = controller_ip
         self.controller_port = controller_port
-        self.tree = TreeTopo(depth=2, fanout=2)
+        self.tree = TreeTopo(depth=2, fanout=4)
 
         # Some important arguments:
         # - autoSetMacs=True: set MAC addrs automatically like IP addresses
