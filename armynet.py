@@ -14,7 +14,7 @@ def armyNet():
 
     # Add a remote controller
     info( '*** Adding the remote controller\n' )
-    net.addController( 'c0', controller=RemoteController, ip='127.0.0.1', port=6633 )
+    net.addController( 'c0', controller=RemoteController, ip='127.0.0.1', port=8762 )
 
     # Add 100 hosts
     info( '*** Adding hosts\n' )
