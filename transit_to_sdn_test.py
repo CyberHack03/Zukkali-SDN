@@ -107,7 +107,7 @@ class TwoLayerTreeTopo(object):
     def show_table(self):
         """ Dump the switch flow table
         """
-        print 'FLOW TABLES'
+        print('FLOW TABLES')
         for i in self.sw:
             print '*** switch %x ***' % int(i.dpid, 16)
             print i.dpctl('dump-flows')
